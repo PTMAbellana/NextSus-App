@@ -37,9 +37,11 @@ const Sidebar = ({ isOpen, onClose }) => {
       >
         <div className="flex items-center justify-between p-4 border-b">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-green-600 rounded-lg flex items-center justify-center">
-              <Leaf className="w-5 h-5 text-white" />
-            </div>
+            <img 
+              src="/nextsus-icon.png" 
+              alt="NextSus Logo" 
+              className="w-8 h-8 object-contain"
+            />
             <span className="font-bold text-lg">NextSus</span>
           </div>
           <button onClick={onClose} className="p-2 hover:bg-gray-100 rounded-lg lg:hidden">
